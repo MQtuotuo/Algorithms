@@ -22,3 +22,11 @@ def longestCommonPrefix( S: [str]) -> str:
     return m[:i]
 
 s = longestCommonPrefix(strs)
+
+
+def solve(eq, var):
+    eq1 = eq.replace("=", "-(") + ")"
+    c = eval(eq1, {var: 1j})
+    return -c.real / c.imag
+
+print(solve())
