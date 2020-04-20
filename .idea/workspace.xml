@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074a3818-b261-4016-8169-ee4b25f3f10d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/String-Easy/20.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/String-Easy/28.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/String-Easy/344.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/String-Easy/38.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/String-Easy/58.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/String-Easy/67.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/String-Easy/125.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/String-Easy/345.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/String-Easy/383.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/String-Easy/387.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/String-Easy/14.py" afterPath="$PROJECT_DIR$/String-Easy/14.py" />
     </list>
     <ignored path="LeetCode-Practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,46 +26,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="13.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/String-Easy/13.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="14.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/String-Easy/14.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/String-Easy/20.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="28.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/String-Easy/28.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="38.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String-Easy/38.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -99,11 +56,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="344.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="344.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String-Easy/344.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="383.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/String-Easy/383.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="387.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/String-Easy/387.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="125.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/String-Easy/125.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="345.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/String-Easy/345.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -160,6 +157,10 @@
         <option value="$PROJECT_DIR$/String-Easy/58.py" />
         <option value="$PROJECT_DIR$/String-Easy/67.py" />
         <option value="$PROJECT_DIR$/String-Easy/344.py" />
+        <option value="$PROJECT_DIR$/String-Easy/125.py" />
+        <option value="$PROJECT_DIR$/String-Easy/345.py" />
+        <option value="$PROJECT_DIR$/String-Easy/383.py" />
+        <option value="$PROJECT_DIR$/String-Easy/387.py" />
       </list>
     </option>
   </component>
@@ -237,24 +238,7 @@
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="last_opened_file_path" value="/usr/local/Cellar/python@3.8/3.8.2/bin/python3" />
   </component>
-  <component name="RunManager" selected="Python.67">
-    <configuration default="false" name="14" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String-Easy" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="LeetCode-Practice" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String-Easy/14.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.387">
     <configuration default="false" name="20" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -319,6 +303,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="LeetCode-Practice" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String-Easy/67.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="387" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/String-Easy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="LeetCode-Practice" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/String-Easy/387.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -458,19 +459,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.14" />
-      <item index="1" class="java.lang.String" itemvalue="Python.20" />
-      <item index="2" class="java.lang.String" itemvalue="Python.38" />
-      <item index="3" class="java.lang.String" itemvalue="Python.58" />
-      <item index="4" class="java.lang.String" itemvalue="Python.67" />
+      <item index="0" class="java.lang.String" itemvalue="Python.20" />
+      <item index="1" class="java.lang.String" itemvalue="Python.38" />
+      <item index="2" class="java.lang.String" itemvalue="Python.58" />
+      <item index="3" class="java.lang.String" itemvalue="Python.67" />
+      <item index="4" class="java.lang.String" itemvalue="Python.387" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.67" />
-        <item index="1" class="java.lang.String" itemvalue="Python.58" />
-        <item index="2" class="java.lang.String" itemvalue="Python.38" />
-        <item index="3" class="java.lang.String" itemvalue="Python.20" />
-        <item index="4" class="java.lang.String" itemvalue="Python.14" />
+        <item index="0" class="java.lang.String" itemvalue="Python.387" />
+        <item index="1" class="java.lang.String" itemvalue="Python.67" />
+        <item index="2" class="java.lang.String" itemvalue="Python.58" />
+        <item index="3" class="java.lang.String" itemvalue="Python.38" />
+        <item index="4" class="java.lang.String" itemvalue="Python.20" />
       </list>
     </recent_temporary>
   </component>
@@ -506,7 +507,7 @@
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32612056" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32766616" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39721793" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -573,7 +574,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="16" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -714,10 +715,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String-Easy/125.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String-Easy/345.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/String-Easy/344.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String-Easy/383.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String-Easy/387.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
