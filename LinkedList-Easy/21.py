@@ -21,5 +21,25 @@ class Solution:
         return dummy.next
 
 s = Solution()
-node = ListNode(0)
-print(node)
+dummy = ListNode(0)
+
+l1 = ListNode(1)
+second = ListNode(2)
+third= ListNode(4)
+l1.next=second
+second.next = third
+
+
+
+l2 = ListNode(1)
+second = ListNode(3)
+third= ListNode(4)
+l2.next=second
+second.next = third
+
+rs = s.mergeTwoLists(l1, l2)
+
+
+while (rs):
+    print(rs.val)
+    rs = rs.next
