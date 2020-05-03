@@ -16,10 +16,22 @@ class Solution:
                 tmp = tmp.next
         return head
 
+    def removeElements1(self, head: ListNode, val: int) -> ListNode:
+        tmp = ListNode(0)
+        tmp.next = head
+        previous, current = tmp, tmp.next
+        while current:
+            if current.val==val:
+                previous.next = current.next
+            else:
+                previous = current
+            current = current.next
+
+        return tmp.next
 
 s = Solution()
 
-l1 = ListNode(1)
+l1 = ListNode(6)
 second = ListNode(2)
 third= ListNode(6)
 forth = ListNode(3)
@@ -32,7 +44,7 @@ forth.next = fifth
 fifth.next = sixth
 
 
-rs = s.removeElements(l1, 6)
+rs = s.removeElements1(l1, 6)
 
 test = rs
 while (rs):
