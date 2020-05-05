@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074a3818-b261-4016-8169-ee4b25f3f10d" name="Default" comment="add more">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LinkedList-Easy/1290.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LinkedList-Easy/234.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LinkedList-Easy/237.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/LinkedList-Easy/876.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedList-Easy/206.py" afterPath="$PROJECT_DIR$/LinkedList-Easy/206.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LinkedList-Easy/203.py" afterPath="$PROJECT_DIR$/LinkedList-Easy/203.py" />
     </list>
     <ignored path="LeetCode-Practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="203.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="203.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedList-Easy/203.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -107,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="1290.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="1290.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList-Easy/1290.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="377">
@@ -172,12 +168,12 @@
         <option value="$PROJECT_DIR$/LinkedList-Easy/141.py" />
         <option value="$PROJECT_DIR$/LinkedList-Easy/160.py" />
         <option value="$PROJECT_DIR$/LinkedList-Easy/21.py" />
-        <option value="$PROJECT_DIR$/LinkedList-Easy/203.py" />
         <option value="$PROJECT_DIR$/LinkedList-Easy/206.py" />
         <option value="$PROJECT_DIR$/LinkedList-Easy/234.py" />
         <option value="$PROJECT_DIR$/LinkedList-Easy/237.py" />
         <option value="$PROJECT_DIR$/LinkedList-Easy/876.py" />
         <option value="$PROJECT_DIR$/LinkedList-Easy/1290.py" />
+        <option value="$PROJECT_DIR$/LinkedList-Easy/203.py" />
       </list>
     </option>
   </component>
@@ -964,14 +960,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList-Easy/203.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList-Easy/206.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1008,6 +996,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="377">
           <caret line="26" column="12" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList-Easy/203.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
           <folding />
         </state>
       </provider>
