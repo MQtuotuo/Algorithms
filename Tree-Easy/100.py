@@ -23,3 +23,15 @@ class Solution:
             stack.append((root1.right, root2.right))
 
         return True
+
+    def isSameTree1(self, p: TreeNode, q: TreeNode) -> bool:
+        if p == q == None:
+            return True
+
+        if (not p and q) or (p and not q):
+            return False
+
+        if p.val != q.val:
+            return False
+
+        return self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
