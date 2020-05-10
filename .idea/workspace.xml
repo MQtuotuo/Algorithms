@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074a3818-b261-4016-8169-ee4b25f3f10d" name="Default" comment="add more">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree-Easy/101.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree-Easy/104.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree-Easy/104.py" afterPath="$PROJECT_DIR$/Tree-Easy/104.py" />
     </list>
     <ignored path="LeetCode-Practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,8 +56,8 @@
       <file leaf-file-name="104.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tree-Easy/104.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="212">
+              <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -1003,8 +1002,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tree-Easy/104.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="212">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding />
         </state>
       </provider>
