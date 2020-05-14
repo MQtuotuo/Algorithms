@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074a3818-b261-4016-8169-ee4b25f3f10d" name="Default" comment="add more">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree-Easy/110.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Tree-Easy/108.py" afterPath="$PROJECT_DIR$/Tree-Easy/108.py" />
     </list>
     <ignored path="LeetCode-Practice.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +36,7 @@
       <file leaf-file-name="100.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree-Easy/100.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
+            <state relative-caret-position="302">
               <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
               <folding />
             </state>
@@ -46,14 +46,14 @@
       <file leaf-file-name="101.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree-Easy/101.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
+            <state relative-caret-position="405">
               <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="104.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="104.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tree-Easy/104.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -76,18 +76,18 @@
       <file leaf-file-name="108.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree-Easy/108.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+            <state relative-caret-position="377">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="110.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="110.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree-Easy/110.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -178,8 +178,8 @@
         <option value="$PROJECT_DIR$/Tree-Easy/101.py" />
         <option value="$PROJECT_DIR$/Tree-Easy/104.py" />
         <option value="$PROJECT_DIR$/Tree-Easy/107.py" />
-        <option value="$PROJECT_DIR$/Tree-Easy/108.py" />
         <option value="$PROJECT_DIR$/Tree-Easy/110.py" />
+        <option value="$PROJECT_DIR$/Tree-Easy/108.py" />
       </list>
     </option>
   </component>
@@ -964,30 +964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tree-Easy/100.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tree-Easy/101.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tree-Easy/104.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tree-Easy/107.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -998,8 +974,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tree-Easy/108.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+        <state relative-caret-position="377">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1007,7 +983,31 @@
     <entry file="file://$PROJECT_DIR$/Tree-Easy/110.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="69" selection-start-line="22" selection-start-column="69" selection-end-line="22" selection-end-column="69" />
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree-Easy/100.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree-Easy/101.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree-Easy/104.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
           <folding />
         </state>
       </provider>
