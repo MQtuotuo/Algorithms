@@ -19,7 +19,7 @@ class Solution:
         if not root:
             return 0
         stack = [[root, 1]]
-        h = 0
+        #h = 0
         m = 0
         while len(stack):
             top, h = stack.pop()
