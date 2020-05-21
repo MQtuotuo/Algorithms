@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="074a3818-b261-4016-8169-ee4b25f3f10d" name="Default" comment="add more">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree-Easy/226.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Tree-Easy/235.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="LeetCode-Practice.iws" />
@@ -23,16 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="101.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tree-Easy/101.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="25" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="104.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree-Easy/104.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -63,11 +53,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="226.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="226.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tree-Easy/226.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="235.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tree-Easy/235.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -183,6 +183,7 @@
         <option value="$PROJECT_DIR$/Tree-Easy/111.py" />
         <option value="$PROJECT_DIR$/Tree-Easy/112.py" />
         <option value="$PROJECT_DIR$/Tree-Easy/226.py" />
+        <option value="$PROJECT_DIR$/Tree-Easy/235.py" />
       </list>
     </option>
   </component>
@@ -631,13 +632,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LinkedList-Easy/160.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="9" selection-start-line="2" selection-start-column="9" selection-end-line="4" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Math-Easy/171.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1005,6 +999,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tree-Easy/235.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
           <folding />
         </state>
       </provider>
