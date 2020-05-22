@@ -15,6 +15,7 @@ class Solution:
             if node.right: stack.append(node.right)
         return root
 
+
     def invertTree_r(self, root: TreeNode) -> TreeNode:
 
         def rec(root):
