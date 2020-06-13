@@ -12,3 +12,6 @@ class Solution:
                 res = sum([dict[x] for x in str(res)])
                 if res == 1: return True
 
+
+
+
