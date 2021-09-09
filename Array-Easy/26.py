@@ -8,3 +8,4 @@ class Solution:
         for i in range(len(nums)-j):
             nums.pop()
 
+
