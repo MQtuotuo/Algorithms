@@ -17,15 +17,14 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-
         # 1. one pass hash-table
         # # Lookup table use space complexity for time complexity
         lookup = {}
-        for i, num in enumerate(nums):
-            if target - num in lookup:
-                return [lookup[target - num], i]
-            lookup[num] = i
-        return []
+        for i in range(0, len(nums)):
+            temp = target - nums[i]
+            if temp in lookup:
+                return [i, lookup[temp]]
+            lookup[nums[i]] = i
 
         # 2. brute force (own solution)
         # for a, b in itertools.combinations(enumerate(nums), 2):
