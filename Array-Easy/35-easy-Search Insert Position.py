@@ -19,11 +19,19 @@ class Solution:
         high = len(nums) - 1
         while low <= high:
             mid = (low + high) // 2
-            if target <= nums[mid]:
-                high = mid - 1
-            else:
-                low = mid + 1
-        return low
+            print(low, mid, high)
+            if nums[mid] == target:
+                return mid
+            elif nums[mid] > target:
+                high -= 1
+            elif nums[mid] < target:
+                low += 1
+
+        # 最后low mid high会变成一个数
+        if nums[mid] > target:
+            return mid
+        else:
+            return mid + 1
 
         # for i in range(len(nums)):
         #     if target <= nums[i]:
@@ -31,4 +39,4 @@ class Solution:
         # return len(nums)
 
 
-print(Solution().searchInsert([1,3,5,6], 7)) # [1,3,5,6], 7
+print(Solution().searchInsert([1,3,5,6], 4)) # [1,3,5,6], 7
