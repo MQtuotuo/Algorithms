@@ -78,4 +78,93 @@ left join Orders
 on Customers.Id = Orders.CustomerId
 where Orders.CustomerId is null;
 
---
+--184
+with tmp as (
+select Id, Name, Salary, DepartmentId,
+MAX(Salary) over (partition by DepartmentId) as maxSalary
+from Employee
+)
+select Department.Name as Department, tmp.Name as Employee,
+Salary
+from tmp left join Department on tmp.DepartmentId = Department.Id
+where Salary = maxSalary
+
+--185
+with tmp as (
+select *,
+dense_rank() over (partition by DepartmentId order by Salary desc) as rk
+from Employee
+)
+select Department.Name as Department, tmp.Name as Employee, Salary
+from tmp left join Department on tmp.DepartmentId = Department.Id
+where rk<=3;
+
+--196
+DELETE FROM Person
+WHERE Id NOT IN
+(SELECT *
+ FROM (SELECT MIN(Id) AS Id
+     FROM Person
+     GROUP BY Email) P
+);
+
+--197
+SELECT
+    w1.Id
+FROM weather w1, weather w2
+WHERE DATEDIFF(day, w1.RecordDate, w2.RecordDate)=1   --w2 - w1 = 1
+AND w1.Temperature > w2.Temperature;
+
+--262
+select
+Request_at as Day,
+round(sum(case
+when Status !='completed' then 1 else 0
+end)/count(*),2) as "Cancellation Rate"
+from Trips
+where
+request_at between "2013-10-01" and "2013-10-03" and
+client_ID not in (
+select users_id from users u
+where u.banned = 'Yes')
+AND
+driver_Id not in ((
+select users_id from users u
+where u.banned = 'Yes')
+)
+group by Request_at;
+
+--620
+SELECT *
+FROM Cinema
+WHERE id % 2 <> 0 AND description <> 'boring'
+ORDER BY rating DESC;
+
+--626 medium
+select s1.id,
+       case when s1.id %2 = 0 then s3.student
+       when s2.id is not null then s2.student
+       else s1.student end as student
+from seat s1
+left join seat s2 on s1.id = s2.id - 1
+left join seat s3 on s3.id = s1.id - 1;
+
+--627
+Update Salary
+SET sex=CASE sex
+        WHEN 'm' THEN 'f'
+        ELSE 'm'
+    END;
+
+--601 hard
+--Cte1 creates a rank group that is unique for each consecutive >=100 row in the table.
+with cte1  as (
+select id, visit_date, people,
+id - row_number() over(order by id) rk
+from stadium where people>=100)
+--Whenever the rank’s count is greater than or equal to 3
+--we know that the partition has more than three >=100 rows consecutively.
+select id, visit_date, people
+from cte1
+where rk in (select rk from cte1 group by rk having count(1)>=3)
+order by id
